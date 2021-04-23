@@ -1,5 +1,8 @@
 # FireBaseAuth
 
+## Setting up FireBaseAuth
+- `git clone https://github.com/dezerr/FireBaseAuth.git`
+
 ## Sign up authentification 🔒
 
 ### If you want to test
