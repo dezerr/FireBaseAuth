@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="login.css">
+
+    <title>[LOGIN] Firebase Auth</title>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Login authentification</h1>
+        <input id="email" type="email" placeholder="Email...">
+        <input id="password" type="password" placeholder="Password...">
+
+        <div class="box">
+            <button id="signInBtn">Sign in</button>
+            <button id="signOutBtn">Sign out</button>
+        </div>
+	
+	    <div class="boxVerif valid">
+		    <p>Vous êtes bien connecté</p>
+	    </div>
+	
+	    <div class="boxVerif error">
+		    <p>Votre compte n'a pas pu se connecter</p>
+	    </div>
+	
+	    <div class="boxVerif deco">
+		    <p>Déconnexion réussie</p>
+	    </div>
+	    
+        <a href="signup.html">Sign up page..</a>
+    </div>
+
+    <script src="login.js"></script>
+
+</body>
+</html>
