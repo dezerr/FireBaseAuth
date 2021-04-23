@@ -1,7 +1,5 @@
 # FireBaseAuth
 
-## Login authentification
+## Sign up authentification 🔒
 
-
-
-## Sign up authentification
+## Login authentification ✅
