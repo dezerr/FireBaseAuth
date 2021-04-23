@@ -12,3 +12,8 @@
 
 ### If you want to test
 - Open "login.html" and connect your account
+
+### Future feature
+- Delete a user
+- Send a user a verification email
+- Send a password reset email
